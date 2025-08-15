@@ -114,3 +114,25 @@ tooltip {
   background-color: #181825;
   border: 2px solid #89b4fa;
 }
+
+#network {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #1e1e2e;
+}
+
+/* WiFi connected */
+#network.wifi {
+  color: #a6e3a1; /* green */
+}
+
+/* Ethernet connected */
+#network.ethernet {
+  color: #74c7ec; /* cyan-blue */
+}
+
+/* Disconnected */
+#network.disconnected {
+  color: #f38ba8; /* red */
+}

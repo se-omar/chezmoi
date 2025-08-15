@@ -13,10 +13,18 @@
     "cpu",
     "memory",
     "pulseaudio",
+    "network",
     "tray",
     "custom/notification",
     "custom/power",
   ],
+"network": {
+  "format-wifi": " {essid} {signalStrength}%",
+  "format-ethernet": "󰈀 {ifname}",
+  "format-disconnected": "󰖪  Offline",
+  "tooltip-format": "{ifname} via {gwaddr}\nIP: {ipaddr}/{cidr}\nSignal: {signalStrength}%",
+  "interval": 5
+},
   "custom/spotify": {
     "format": "  {}",
     "return-type": "json",
