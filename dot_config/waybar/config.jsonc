@@ -23,7 +23,8 @@
   "format-ethernet": "󰈀 {ifname}",
   "format-disconnected": "󰖪  Offline",
   "tooltip-format": "{ifname} via {gwaddr}\nIP: {ipaddr}/{cidr}\nSignal: {signalStrength}%",
-  "interval": 5
+  "interval": 5,
+  "on-click": "networkmanager_dmenu",
 },
   "custom/spotify": {
     "format": "  {}",
