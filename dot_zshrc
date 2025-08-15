@@ -134,6 +134,8 @@ alias lg="lazygit"
 
 alias of='nvim $(fzf -m --preview="bat --color=always {}")'
 
+alias ce='chezmoi edit --watch'
+
 bindkey -s ^f "tmux-sessionizer\n"
 PATH="$PATH":"$HOME/.local/scripts/"
 
