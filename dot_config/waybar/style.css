@@ -136,3 +136,8 @@ tooltip {
 #network.disconnected {
   color: #f38ba8; /* red */
 }
+
+.modules-right {
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
