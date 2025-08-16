@@ -90,7 +90,8 @@
     "format": "{icon}{volume}%",
     "format-muted": " muted",
     "format-icons": {
-      "headphone": "",
+      "headphone": " ",
+      "headset": " ",
       "default": [" ", " ", " "],
     },
     "on-click": "pavucontrol",
